@@ -72,8 +72,7 @@ def runner
   until hand_total > 21
     hit?(hand_total)
     display_card_total(hand_total)
-    return hand_total
   end
 end_game
-  
+  return hand_total
 end
