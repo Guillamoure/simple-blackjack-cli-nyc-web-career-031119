@@ -69,6 +69,7 @@ def runner
   # code runner here
   welcome
   hand_total = initial_round
+  return hand_total
   until hand_total > 21
     hit?(hand_total)
     display_card_total(hand_total)
